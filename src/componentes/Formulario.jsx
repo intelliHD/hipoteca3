@@ -152,8 +152,8 @@ const Formulario = ({cantidad, setCantidad, plazo, setPlazo, setTotal,deposito,s
                         value={plazo} 
                         onChange={onChange} 
                         name='plazo'
-                        min={5}
-                        max={40}
+                        min={1}
+                        max={7}
                         />
                     </div>
                 </div>
