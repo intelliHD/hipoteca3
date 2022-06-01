@@ -143,7 +143,7 @@ const Formulario = ({cantidad, setCantidad, plazo, setPlazo, setTotal,deposito,s
                     
                         name='plazo'
                         value={plazo}
-                        placeholder='12 años'
+                        placeholder='4 años'
                        
                         variant="outlined"
                         
