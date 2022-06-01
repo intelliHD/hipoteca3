@@ -50,7 +50,7 @@ const Formulario = ({cantidad, setCantidad, plazo, setPlazo, setTotal,deposito,s
     useEffect(() => {
         setDeposito(cantidad * interes / 100)
     }, [cantidad])
-    const [value, setValue] = React.useState(1000);
+    const [value, setValue] = React.useState(20000);
 
 
 
