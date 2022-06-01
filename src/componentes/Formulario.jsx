@@ -92,6 +92,7 @@ const Formulario = ({cantidad, setCantidad, plazo, setPlazo, setTotal,deposito,s
                                 <MenuItem value="5">5%</MenuItem>
                                 <MenuItem value="6">6%</MenuItem>
                                 <MenuItem value="7">7%</MenuItem>
+                                <MenuItem value="50">50%</MenuItem>
                             </Select>
                         {/* <select 
                         onChange={(e) => onChange(e)}
@@ -106,6 +107,7 @@ const Formulario = ({cantidad, setCantidad, plazo, setPlazo, setTotal,deposito,s
                             <option value="5">5%</option>
                             <option value="6">6%</option>
                             <option value="7">7%</option>
+                            <option value="50">50%</option>
                         </select> */}
                     </div>
                     <div>
